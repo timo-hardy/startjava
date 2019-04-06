@@ -30,7 +30,7 @@ public class ConditionalStatement {
 		} else if (MyNameStartsWithALetter == 'I') {
 			System.out.println("My name does not start with - I");
 		} else {
-			System.out.println("My name starts with - T");
+			System.out.println("My name starts with - " + MyNameStartsWithALetter);
 		}
 	}
 }
