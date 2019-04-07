@@ -1,4 +1,5 @@
 public class Variable {
+
 	public static void main(String[] args) {
 		byte numberOfCores = 2;
 		int price = 99_000;
