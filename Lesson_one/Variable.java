@@ -1,5 +1,4 @@
 public class Variable {
-
 	public static void main(String[] args) {
 		byte numberOfCores = 2;
 		int price = 99_000;
@@ -9,6 +8,6 @@ public class Variable {
 		boolean isCamera = true;
 		double volumeHD = 121.02;
 		char inputChannels = 50;
-		short speedRam = 2133;
+		short speedRam = 2134;
 	}
 }
