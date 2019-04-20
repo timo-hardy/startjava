@@ -10,21 +10,16 @@ public class Cycle {
         int result1 = 8;
         while (j <= 5) {
             result1 = result1 - j;
-            if (result1 >= -6) {
                 System.out.println("While - " + result1);
-            }
             j++;
         }
 
-        int k = 10;
+        int k = 11;
         int sum = 0;
         do {
             sum = sum + k;
-            if(sum % 2 != 0) {
-                System.out.println("The number " + sum + " is Odd");
-            }
-            k++;
-        } while(k <= 20);
+            k += 2;
+        } while(k < 20);
 
         System.out.println("sum of odd numbers - " + sum);
     }

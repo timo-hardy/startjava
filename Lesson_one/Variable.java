@@ -20,6 +20,5 @@ public class Variable {
         System.out.println(volumeHD);
         System.out.println(inputChannels);
         System.out.println(speedRam);
-
     }
 }
