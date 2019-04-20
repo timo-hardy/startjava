@@ -4,19 +4,19 @@ public class Cycle {
             System.out.println("result = " + i);
         }
 
-        int j = 2;
-        int result1 = -8;
-        while (j < 6 && j >= -6) {
-            result1 = result1 + j;
+        int result1 = 6;
+        while (result1 >= -6) {
             System.out.println("While - " + result1);
-            j++;
+            result1--;
         }
 
-        int k = 11;
+        int k = 10;
         int sum = 0;
         do {
-            sum += k;
-            k += 2;
+            if(k % 2 != 0) {
+                sum += k;
+            }
+            k++;
         } while(k < 20);
 
         System.out.println("sum of odd numbers - " + sum);
