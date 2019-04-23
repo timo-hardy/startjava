@@ -44,6 +44,5 @@ public class Calculator {
         } else {
             System.out.println("Negative result of exponentiation = " + (firstNumber * firstNumber));
         }
-
     }
 }
