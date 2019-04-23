@@ -40,7 +40,7 @@ public class Calculator {
 
         //Возведение в степень
         if (firstNumber >= 0) {
-            System.out.println("Positive result of exponentiation = " + (firstNumber * firstNumber));
+            System.out.println("Positive result of exponentiation or zero = " + (firstNumber * firstNumber));
         } else {
             System.out.println("Negative result of exponentiation = " + (firstNumber * firstNumber));
         }
