@@ -4,8 +4,6 @@ public class MyFirstGame {
         while (number <= 14) {
             if (number < 14) {
                 System.out.println("Введенное вами число больше того, что загадал компьютер");
-            } else if (number > 14) {
-                System.out.println("Введенное вами число меньше того, что загадал компьютер");
             } else {
                 System.out.println("Вы угадали!");
             }
