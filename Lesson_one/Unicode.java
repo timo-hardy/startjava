@@ -4,7 +4,7 @@ public class Unicode {
 
         for (int i = 9398; i <= 10178; i++) {
             symbols = (char) i;
-            System.out.println(symbols);
+            System.out.println((char) i);
         }
     }
 }
