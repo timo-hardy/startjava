@@ -15,6 +15,9 @@ public class Calculator {
         } else if (sign == '%' && secondNumder != 0) {
             System.out.println(firstNumber % secondNumder);
         } else if (sign == '^') {
+            if (secondNumder == 0) {
+                System.out.println(1);
+            }
            int result = 1;
             for (int i = 1; i <= secondNumder; i++) {
                 result *= firstNumber;
