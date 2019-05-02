@@ -1,4 +1,5 @@
 public class Person {
+
     String male = "Man";
     String name = "Vasya";
     int growth = 180;
