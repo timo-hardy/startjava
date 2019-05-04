@@ -7,6 +7,7 @@ class WolfTest {
         wolfOne.setWeight(12.4);
         wolfOne.setAge(10);
         wolfOne.setColor("Brown");
+
         System.out.println(wolfOne.getGender());
         System.out.println(wolfOne.getNickname());
         System.out.println(wolfOne.getWeight());
