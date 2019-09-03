@@ -17,7 +17,6 @@ public class CalculatorTest {
 		char mathOperation = symbol.charAt(0);
 		calculator.setMathOperation(mathOperation);
 
-
 		System.out.print("Введите второе число: ");
 		int secondNumber = scanner.nextInt();
 		calculator.setSecondNumber(secondNumber);
