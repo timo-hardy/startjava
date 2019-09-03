@@ -16,7 +16,7 @@ public class Calculator {
         this.mathOperarion = mathOperarion;
     }
 
-    public void calclulate() {
+    public void calculate() {
         switch(mathOperarion) {
             case '+':
                 System.out.println(firstNumber + secondNumder);
@@ -34,14 +34,18 @@ public class Calculator {
                 System.out.println(firstNumber % secondNumder);
                 break;
             case '^':
-             int result = 1;
-            for (int i = 1; i <= secondNumder; i++) {
-                result *= firstNumber;
-            }
-            System.out.println(result);
+            pow();
             break;
             default:
                 System.out.println("Error");
         }
+    }
+
+    private void pow() {
+                     int result = 1;
+            for (int i = 1; i <= secondNumder; i++) {
+                result *= firstNumber;
+            }
+            System.out.println(result);
     }
 }
