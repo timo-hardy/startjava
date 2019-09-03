@@ -12,13 +12,13 @@ public class CalculatorTest {
 		int firstNumber = scanner.nextInt();
 		calculator.setFirstNumber(firstNumber);
 
-		System.out.print("Введите знак математической операции");
+		System.out.print("Введите знак математической операции: ");
 		String symbol = scanner.next();
 		char mathOperation = symbol.charAt(0);
 		calculator.setMathOperation(mathOperation);
 
 
-		System.out.print("Введите второе число");
+		System.out.print("Введите второе число: ");
 		int secondNumber = scanner.nextInt();
 		calculator.setSecondNumber(secondNumber);
 
