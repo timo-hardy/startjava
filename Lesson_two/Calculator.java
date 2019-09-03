@@ -17,32 +17,31 @@ public class Calculator {
     }
 
     public void calclulate() {
-
-    }
-
-        int firstNumber = 2;
-        int secondNumder = 10;
-        char sign = '^';
-
-        if (sign == '+') {
-            System.out.println(firstNumber + secondNumder);
-        } else if (sign == '-') {
-            System.out.println(firstNumber - secondNumder);
-        } else if (sign == '*') {
-            System.out.println(firstNumber * secondNumder);
-        } else if (sign == '/' && secondNumder != 0) {
-            System.out.println(firstNumber / secondNumder);
-        } else if (sign == '%' && secondNumder != 0) {
-            System.out.println(firstNumber % secondNumder);
-        } else if (sign == '^') {
-            // if (secondNumder == 0) {
-            //     System.out.println(1);
-            // }
-           int result = 1;
+        switch(mathOperarion) {
+            case '+':
+                System.out.println(firstNumber + secondNumder);
+                break;
+            case '-':
+                System.out.println(firstNumber - secondNumder);
+                break;
+            case '*':
+                System.out.println(firstNumber * secondNumder);
+                break;
+            case '/':
+                System.out.println(firstNumber / secondNumder);
+                break;
+            case '%':
+                System.out.println(firstNumber % secondNumder);
+                break;
+            case '^':
+             int result = 1;
             for (int i = 1; i <= secondNumder; i++) {
                 result *= firstNumber;
             }
             System.out.println(result);
+            break;
+            default:
+                System.out.println("Error");
         }
-
+    }
 }
