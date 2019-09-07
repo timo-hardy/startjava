@@ -10,19 +10,39 @@ public class Jaeger {
     this.name = name;
   }
 
-    public void setMark(String mark) {
-    this.mark = mark;
+  public void setMark(String mark) {
+   	this.mark = mark;
   }
 
-    public void setStatus(String status) {
+  public void setStatus(String status) {
     this.status = status;
   }
 
-    public void setHeight(double height) {
+  public void setHeight(double height) {
     this.height = height;
   }
 
-    public void setWeight(double weight) {
+  public void setWeight(double weight) {
     this.weight = weight;
+  }
+
+  public String getName() {
+  	return name;
+  }
+
+  public String getMark() {
+  	return mark;
+  }
+
+  public String getStatus() {
+  	return status;
+  }
+
+  public double getWeight() {
+  	return weight;
+  }
+
+  public double getHeight() {
+  	return height;
   }
 }
