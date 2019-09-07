@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CalculatorTest {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		Calculator calculator = new Calculator();
 
@@ -20,6 +20,6 @@ public class CalculatorTest {
 		int secondNumber = scanner.nextInt();
 		calculator.setSecondNumber(secondNumber);
 
-        calculator.calculate();
+		calculator.calculate();
 	}
 }
