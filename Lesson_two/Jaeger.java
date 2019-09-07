@@ -25,5 +25,4 @@ public class Jaeger {
     public void setWeight(double weight) {
     this.weight = weight;
   }
-
 }
