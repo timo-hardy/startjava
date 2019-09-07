@@ -34,7 +34,7 @@ public class Calculator {
                 System.out.println(firstNumber % secondNumder);
                 break;
             case '^':
-            pow();
+            pow();s
             break;
             default:
                 System.out.println("Error");
