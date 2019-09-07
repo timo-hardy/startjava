@@ -19,7 +19,6 @@ public class CalculatorTest {
 		System.out.print("Введите второе число: ");
 		int secondNumber = scanner.nextInt();
 		calculator.setSecondNumber(secondNumber);
-
-		calculator.calculate();
+        calculator.calculate();
 	}
 }
