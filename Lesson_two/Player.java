@@ -1,14 +1,10 @@
 public class Player {
 
-	private String firstName;
-	private String secondName;
-	private int numberOne;
-	private int numberTwo;
+	private String name;
+	private int number;
 
-	public Player(String firstName, String secondName, int numberOne, int numberTwo) {
-		this.firstName = firstName;
-		this.secondName = secondName;
-		this.numberOne = numberOne;
-		this.numberTwo = numberTwo;
+	public Player(String name, int number) {
+		this.name = name;
+		this.number = number;
 	}
 }

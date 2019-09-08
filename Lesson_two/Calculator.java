@@ -19,33 +19,33 @@ public class Calculator {
     public void calculate() {
         switch(mathOperarion) {
             case '+':
-                System.out.println(firstNumber + secondNumder);
-                break;
+            System.out.println(firstNumber + secondNumder);
+            break;
             case '-':
-                System.out.println(firstNumber - secondNumder);
-                break;
+            System.out.println(firstNumber - secondNumder);
+            break;
             case '*':
-                System.out.println(firstNumber * secondNumder);
-                break;
+            System.out.println(firstNumber * secondNumder);
+            break;
             case '/':
-                System.out.println(firstNumber / secondNumder);
-                break;
+            System.out.println(firstNumber / secondNumder);
+            break;
             case '%':
-                System.out.println(firstNumber % secondNumder);
-                break;
+            System.out.println(firstNumber % secondNumder);
+            break;
             case '^':
-            pow();s
+            pow();
             break;
             default:
-                System.out.println("Error");
+            System.out.println("Error");
         }
     }
 
     private void pow() {
-                     int result = 1;
-            for (int i = 1; i <= secondNumder; i++) {
-                result *= firstNumber;
-            }
-            System.out.println(result);
+       int result = 1;
+       for (int i = 1; i <= secondNumder; i++) {
+        result *= firstNumber;
     }
+    System.out.println(result);
+}
 }
