@@ -23,10 +23,7 @@ public class JaegerTest {
 	gipsyAvenger.setHeight(81.77);
 	gipsyAvenger.setWeight(2.004);
 
-	System.out.println(gipsyAvenger.getName());
-	System.out.println(gipsyAvenger.getMark());
-	System.out.println(gipsyAvenger.getStatus());
-	System.out.println(gipsyAvenger.getHeight());
-	System.out.println(gipsyAvenger.getWeight());
+	System.out.println(gipsyDanger);
+	System.out.println(gipsyAvenger);
   }
 }

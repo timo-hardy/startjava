@@ -47,5 +47,5 @@ public class Calculator {
         result *= firstNumber;
     }
     System.out.println(result);
-}
+    }
 }

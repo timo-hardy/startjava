@@ -1,30 +1,12 @@
-import java.util.Random;
+import java.lang.Math;
 
 public class GuessNumber {
 
-    private int randomNumber;
-    private int tries = 0;
-    private int range;
-
-    public GuessNumber(int range) {
-
+    public int getRandomNumber(int min, int max) {
+        min = 0;
+        max = 100;
+        return min + (int)(Math.random() * ((max - min) + 1)); // Method to generate a random number in range [0 ; 100]
     }
 
-    public void generateRandomNumber() {
-        int min = 0;
-        int max = 100;
-        int difference = max - min;
-        Random random = new Random();
-        int randomNumber = random.nextInt(difference + 1);
-        randomNumber += min;
-    }
 
-    public boolean guees(int guess) {
-        tries++;
-        if(guess == randomNumber) {
-            if (tries > 1) {
-
-            }
-        }
-    }
 }
