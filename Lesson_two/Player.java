@@ -1,15 +1,15 @@
 public class Player {
 
-	private String name;
-	private int number;
+    private String name;
+    private int number;
     public static int counter;
 
-	public Player(String name, int number) {
-		this.name = name;
-		this.number = number;
+    public Player(String name, int number) {
+        this.name = name;
+        this.number = number;
         counter++;
         System.out.println(++counter);
-	}
+    }
 
     public String getName() {
         return name;
