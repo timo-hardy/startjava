@@ -8,6 +8,7 @@ public class Player {
 		this.name = name;
 		this.number = number;
         counter++;
+        System.out.println(++counter);
 	}
 
     public String getName() {
