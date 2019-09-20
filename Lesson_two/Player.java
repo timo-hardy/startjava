@@ -2,10 +2,12 @@ public class Player {
 
 	private String name;
 	private int number;
+    public static int counter;
 
 	public Player(String name, int number) {
 		this.name = name;
 		this.number = number;
+        counter++;
 	}
 
     public String getName() {
